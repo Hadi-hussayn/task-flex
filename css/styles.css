@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color: gray;
-    justify-content: space-between;
+    justify-content: space-around;
     /* height: 100vh; */
 
 }
@@ -44,10 +44,12 @@ body{
     text-align: center;
     overflow: hidden;
     flex-basis: 15rem;
+    border: 2px solid #fff;
+    box-shadow: 3px 2px 0px rgba(0,0,0,0.4)
 }
 #img-boxis .box1 h2{
     text-align: center;
-     line-height: 3rem;
+    line-height: 3rem;
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: capitalize;
@@ -71,9 +73,13 @@ body{
 }
 #img-boxis .box2{
     text-align: center;
+    border: 2px solid #fff;
+    box-shadow: 3px 2px 0px rgba(0,0,0,0.4)
 }
 #img-boxis .box3{
     flex-basis: 10rem;
+    border: 2px solid #fff;
+    box-shadow: 3px 2px 0px rgba(0,0,0,0.4)
 }
 #img-boxis .box3 p{
     color: #00111b;
@@ -101,6 +107,8 @@ body{
 }
 #img-boxis .box4{
     flex-basis: 10rem;
+    border: 2px solid #fff;
+    box-shadow: 3px 2px 0px rgba(0,0,0,0.4)
     
 }
  
